@@ -7,3 +7,8 @@ Goodluck.
 
 Future Implementation:
 1. Player loses on wrong guess. 
+
+Cloning.
+1. `git clone https://github.com/magicmitra/serverhacker.git`
+2. Compile `TripleX.cpp` (whether using g++ or built in compiler)
+3. Run the executable .exe file.
