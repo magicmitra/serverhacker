@@ -6,7 +6,7 @@ is more difficult compared to the previous level.
 Goodluck.
 
 Future Implementation:
-1. Player loses on wrong guess. 
+1. ~~Player loses on wrong guess.~~ **DONE**
 
 Cloning.
 1. `git clone https://github.com/magicmitra/serverhacker.git`
