@@ -5,7 +5,8 @@ void PrintIntroduction(int Difficulty)
 {
     // Greet and explain story to the user.
     std::cout << "\n\nYou are trying to hack into your work's level " << Difficulty;
-    std::cout << " server so you can increase your salary.\nEnter the correct codes to continue.\n\n";
+    std::cout << " server so you can increase your salary.\nOne wrong guess and you're out.";
+    std::cout << "\nEnter the correct codes to continue.\n\n";
 }
 
 bool PlayGame(int Difficulty)
@@ -40,7 +41,7 @@ bool PlayGame(int Difficulty)
     }
     else 
     {
-        std::cout << "\nYou did not hack it. Careful and don't get caught. Retry this level.";
+        std::cout << "You weren't able to steal a raise, GTFO before they find you.\n";
         return false;
     }
 }
@@ -61,6 +62,10 @@ int main()
         if (bLevelComplete)
         {
             ++LevelDifficulty;
+        }
+        else
+        {
+            return 0;
         }
         
     }  
